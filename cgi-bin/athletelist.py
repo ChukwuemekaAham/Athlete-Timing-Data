@@ -25,4 +25,3 @@ class AthleteList(list):
     @property
     def clean_data(self):
         return(sorted(set([self.sanitize(t) for t in self])))
-
